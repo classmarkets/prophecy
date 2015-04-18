@@ -1,3 +1,22 @@
+phpspec/prophecy 1.4.x with merged phpspec/prophecy#143 (variadic arguments support, by @whatthejeff)
+
+To use it:
+
+    {
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/classmarkets/prophecy.git"
+            }
+        ],
+        "require-dev": {
+            "phpspec/phpspec": "~2.1.1",
+            "phpspec/prophecy": "dev-variadics as 1.4.0"
+        }
+    }
+
+* * *
+
 # Prophecy
 
 [![Build Status](https://travis-ci.org/phpspec/prophecy.svg?branch=master)](https://travis-ci.org/phpspec/prophecy)
